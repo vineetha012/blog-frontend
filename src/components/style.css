@@ -1,0 +1,224 @@
+/* navabar */
+.NavBar {
+    height: 50px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+}
+
+.logo {
+    width: 50%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.NavBar .buttons {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.buttons {
+    margin-right: 20px;
+}
+
+.buttons button {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+}
+.buttons button:hover{
+    background-color: rgb(85, 193, 215);
+}
+/* home */
+.Card-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(244, 224, 253);
+    min-height:95vh;
+}
+
+.Card-cont {
+    /* border:  2px solid black; */
+    padding: 10px;
+    background-color: rgb(229, 241, 252);
+    box-shadow: 2px 2px 2px 2px rgb(188, 188, 189);
+}
+
+.Card {
+    border: 0.5px solid rgb(221, 218, 218);
+    margin: 20px;
+    padding: 10px;
+    width: 350px;
+    background-color: rgb(249, 246, 246);
+    text-align: center
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.upper {
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(237, 235, 235);
+    padding-bottom: 10px;
+}
+
+.date {
+    font-size: small;
+    color: gray;
+}
+
+.description {
+    border-top: 1px solid rgb(237, 235, 235);
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: rgb(62, 63, 63);
+}
+
+.bottom {
+    justify-content: space-between;
+    margin-top: 10px;
+    border-top: 1px solid rgb(237, 235, 235);
+    padding-top: 10px;
+}
+
+.comments {
+    margin-right: 10px;
+    position: relative;
+}
+
+.round {
+    border-radius: 50%;
+    width: 15px;
+    height: 20px;
+    font-size: small;
+    color: white;
+    background-color: red;
+    text-align: center;
+    z-index: 0.1;
+    margin-right: 5px;
+}
+
+/* details */
+.details {
+    height: 95vh;
+    /* background-color: rgb(90, 91, 82); */
+}
+
+.left,
+.right {
+    width: 50%;
+    border: 1px solid gray;
+    margin: 10px;
+
+    background-color: rgb(52, 51, 51);
+}
+
+.left {
+    text-align: center;
+}
+
+.Title {
+    font: bolder;
+    font-family: sans-serif;
+    font-size: x-large;
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+.desc {
+    font-size: large;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.detail-bottom {
+    margin-top: 10px;
+    padding: 20px 20px 10px 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.right {
+    color: aliceblue;
+}
+
+.right form {
+    width: 100%;
+    /* border: 1px solid gray; */
+    text-align: center;
+}
+
+.comment-input {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.sendButton {
+    height: 35px;
+    width: 50px;
+}
+
+.sendButton:hover {
+    background-color: cornflowerblue;
+}
+
+.comment-cont {
+    width: 100%;
+}
+
+.main-comment {
+    border: 1px solid gray;
+    margin: 10px 15px;
+    width: auto;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* border-bottom-right-radius: 20px; */
+    padding: 10px;
+    background-color: rgb(76, 73, 60);
+}
+/* createpost */
+.post-create{
+    display: flex;
+    justify-content: center;
+}
+.createpost{
+    color: aliceblue;
+    border: 1px solid gray;
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    border-radius: 20px;
+}
+.cols{
+    display: flex;
+    flex-direction: column;
+}
+.cols input{
+    width: 300px;
+    height: 30px;
+}
+.submitPOst{
+    width: 150px;
+    height: 40px;
+    background-color: purple;
+    border-radius: 10px;
+}
+.submitPOst:hover{
+    background-color:rgb(117, 171, 117);
+}
